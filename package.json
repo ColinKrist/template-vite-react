@@ -8,13 +8,6 @@
     "lint": "tsc",
     "preview": "vite preview"
   },
-  "lint-staged": {
-    "*.{ts,tsx,js,cjs}": [
-      "prettier --write"
-    ],
-    "*.{md,html,css,json,yml}": "prettier --write",
-    "package.json": "pnpm sort-package-json"
-  },
   "dependencies": {
     "react": "19.1.1",
     "react-dom": "19.1.1",
@@ -29,13 +22,10 @@
     "@types/react-dom": "19.1.7",
     "@vitejs/plugin-react-swc": "4.0.1",
     "autoprefixer": "10.4.21",
-    "lightningcss": "1.30.1",
-    "lint-staged": "16.1.5",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-packagejson": "2.5.19",
     "prettier-plugin-tailwindcss": "0.6.14",
-    "sort-package-json": "3.4.0",
     "tailwindcss": "4.1.12",
     "typescript": "5.9.2",
     "vite": "7.1.3",

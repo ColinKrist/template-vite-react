@@ -17,6 +17,15 @@
 
 ## Getting Started
 
+### Quick Setup (Recommended for Interviews)
+
+```bash
+# Run the setup script
+./setup.sh
+```
+
+### Manual Setup
+
 ```bash
 npx degit lzm0x219/template-vite-react myapp
 
@@ -27,15 +36,16 @@ git init
 
 ### Prerequisites
 
-- `npm` and `pnpm` should be installed.
+- Node.js 18+ (includes corepack for package manager management)
 - `git` should be installed (recommended v2.4.11 or higher)
+- The setup script will automatically enable corepack and install pnpm
 
 ### Available scripts
 
 #### `pnpm dev`
 
 Runs the app in development mode.
-Open https://localhost:5173 to view it in the browser.
+Open <https://localhost:5173> to view it in the browser.
 
 The page will automatically reload if you make changes to the code.
 You will see the build errors and lint warnings in the console.

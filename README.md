@@ -2,38 +2,15 @@
 
 ⚡️ A minimal React Vite starter template.
 
-## Feature
-
-- ⚡️ Fast - Build tools based on vite.
-- 👻 Small - Based on the smallest runnable build.
-- 💄 Prettier - Integrated Prettier to help you format the code.
-- ✅ Safety - Https is enabled by default.
-- 😎 Reliable - Integrated eslint and commitlint.
-- 🤖 Intelligent - Integrated renovate to help you maintain the dependent version.
-
 ## Preview
 
 [![qekup8.png](https://s1.ax1x.com/2022/03/20/qekup8.png)](https://imgtu.com/i/qekup8)
 
 ## Getting Started
 
-### Quick Setup (Recommended for Interviews)
+### Quick Setup
 
-#### macOS/Linux
-
-```bash
-# Run the setup script
-./setup.sh
-```
-
-#### Windows
-
-```cmd
-# Run the setup script
-setup.bat
-```
-
-### Manual Setup
+#### Step 1 - Clone the repo
 
 ```bash
 npx degit ColinKrist/template-vite-react myapp
@@ -42,6 +19,24 @@ cd myapp
 
 git init
 ```
+
+#### Step 2 - Run setup (nvm, corepack, install)
+
+##### macOS/Linux
+
+```bash
+# Run the setup script
+./setup.sh
+```
+
+##### Windows
+
+```cmd
+# Run the setup script
+setup.bat
+```
+
+---
 
 ### Prerequisites
 
@@ -63,6 +58,8 @@ If you're on Windows and don't have nvm-windows installed:
 2. Run the installer as Administrator
 3. Restart your terminal/command prompt
 4. Run `setup.bat` again
+
+---
 
 ### Available scripts
 

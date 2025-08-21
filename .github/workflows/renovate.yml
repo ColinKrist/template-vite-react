@@ -43,4 +43,3 @@ jobs:
           renovate \
             --platform github \
             --token $RENOVATE_TOKEN \
-            --config-file $RENOVATE_CONFIG_FILE

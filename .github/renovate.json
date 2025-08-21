@@ -25,5 +25,11 @@
   "autoApprove": true,
   "automerge": true,
   "automergeStrategy": "squash",
-  "ignoreTests": true
+  "ignoreTests": true,
+  "postUpdateOptions": [
+    "pnpmDedupe"
+  ],
+  "constraints": {
+    "pnpm": ">=8.0.0"
+  }
 }

@@ -1,12 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
-  "labels": ["dependencies"],
+  "extends": [
+    "config:base"
+  ],
+  "labels": [
+    "dependencies"
+  ],
   "assignees": [],
   "packageRules": [
     {
       "groupName": "react monorepo",
-      "matchPackageNames": ["@types/react", "@types/react-dom"]
+      "matchPackageNames": [
+        "@types/react",
+        "@types/react-dom"
+      ]
+    },
+    {
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "automerge": false
     }
   ],
   "autoApprove": true,

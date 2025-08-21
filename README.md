@@ -19,9 +19,18 @@
 
 ### Quick Setup (Recommended for Interviews)
 
+#### macOS/Linux
+
 ```bash
 # Run the setup script
 ./setup.sh
+```
+
+#### Windows
+
+```cmd
+# Run the setup script
+setup.bat
 ```
 
 ### Manual Setup
@@ -36,9 +45,24 @@ git init
 
 ### Prerequisites
 
-- Node.js 18+ (includes corepack for package manager management)
+- **Node.js 22** (specified in `.nvmrc`)
+- **nvm** (Node Version Manager) - will be installed automatically on macOS/Linux
+- **nvm-windows** - must be installed manually on Windows
 - `git` should be installed (recommended v2.4.11 or higher)
-- The setup script will automatically enable corepack and install pnpm
+- The setup script will automatically:
+  - Install nvm (macOS/Linux) or guide you through nvm-windows installation (Windows)
+  - Install Node.js 22 using nvm
+  - Enable corepack and install pnpm
+  - Install project dependencies
+
+### Installing nvm-windows (Windows Users)
+
+If you're on Windows and don't have nvm-windows installed:
+
+1. Download the latest release from: <https://github.com/coreybutler/nvm-windows/releases>
+2. Run the installer as Administrator
+3. Restart your terminal/command prompt
+4. Run `setup.bat` again
 
 ### Available scripts
 

@@ -21,7 +21,7 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react-swc": "4.3.0",
-    "autoprefixer": "10.4.27",
+    "autoprefixer": "10.5.0",
     "postcss": "8.5.9",
     "prettier": "3.8.2",
     "prettier-plugin-packagejson": "2.5.22",

@@ -46,14 +46,14 @@ importers:
         specifier: 8.5.15
         version: 8.5.15
       prettier:
-        specifier: 3.8.4
-        version: 3.8.4
+        specifier: 3.8.5
+        version: 3.8.5
       prettier-plugin-packagejson:
         specifier: 2.5.22
-        version: 2.5.22(prettier@3.8.4)
+        version: 2.5.22(prettier@3.8.5)
       prettier-plugin-tailwindcss:
         specifier: 0.8.0
-        version: 0.8.0(prettier@3.8.4)
+        version: 0.8.0(prettier@3.8.5)
       tailwindcss:
         specifier: 4.3.1
         version: 4.3.1
@@ -822,8 +822,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.8.4:
-    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+  prettier@3.8.5:
+    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1448,17 +1448,17 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@2.5.22(prettier@3.8.4):
+  prettier-plugin-packagejson@2.5.22(prettier@3.8.5):
     dependencies:
       sort-package-json: 3.6.0
     optionalDependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
 
-  prettier-plugin-tailwindcss@0.8.0(prettier@3.8.4):
+  prettier-plugin-tailwindcss@0.8.0(prettier@3.8.5):
     dependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
 
-  prettier@3.8.4: {}
+  prettier@3.8.5: {}
 
   react-dom@19.2.7(react@19.2.7):
     dependencies:
